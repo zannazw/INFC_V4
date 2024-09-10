@@ -412,23 +412,23 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000      0xf70
+.debug_info     0x0000000000000000      0xf64
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0x5f4 /Applications/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
  .debug_info    0x00000000000005f4      0x1f0 build/default/debug/picture.o
- .debug_info    0x00000000000007e4      0x78c build/default/debug/mainV4.o
+ .debug_info    0x00000000000007e4      0x780 build/default/debug/mainV4.o
 
-.debug_abbrev   0x0000000000000000      0x759
+.debug_abbrev   0x0000000000000000      0x74a
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x5a2 /Applications/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
  .debug_abbrev  0x00000000000005a2       0x31 build/default/debug/picture.o
- .debug_abbrev  0x00000000000005d3      0x186 build/default/debug/mainV4.o
+ .debug_abbrev  0x00000000000005d3      0x177 build/default/debug/mainV4.o
 
-.debug_line     0x0000000000000000      0x43b
+.debug_line     0x0000000000000000      0x436
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000      0x137 /Applications/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
  .debug_line    0x0000000000000137       0x27 build/default/debug/picture.o
- .debug_line    0x000000000000015e      0x2dd build/default/debug/mainV4.o
+ .debug_line    0x000000000000015e      0x2d8 build/default/debug/mainV4.o
 
 .debug_frame    0x0000000000000000      0x108
  *(.debug_frame)
@@ -477,19 +477,19 @@ LOAD data_init
  .note.gnu.avr.deviceinfo
                 0x0000000000000000       0x40 /Applications/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
 
-.bss.possibleRepitions.1718
+.bss.possibleRepitions.1717
                 0x000000000080015e        0x2
- .bss.possibleRepitions.1718
+ .bss.possibleRepitions.1717
                 0x000000000080015e        0x2 build/default/debug/mainV4.o
 
-.bss.currentColour.1717
+.bss.currentColor.1716
                 0x0000000000800160        0x2
- .bss.currentColour.1717
+ .bss.currentColor.1716
                 0x0000000000800160        0x2 build/default/debug/mainV4.o
 
-.bss.lastColour.1716
+.bss.lastColor.1715
                 0x0000000000800162        0x2
- .bss.lastColour.1716
+ .bss.lastColor.1715
                 0x0000000000800162        0x2 build/default/debug/mainV4.o
 
 .bss.aktTime.1674
@@ -507,117 +507,117 @@ LOAD data_init
                 0x00000000000000c8     0x16b0 build/default/debug/picture.o
                 0x00000000000000c8                Bild1
 
-.text.main      0x0000000000001778      0x11c
- .text.main     0x0000000000001778      0x11c build/default/debug/mainV4.o
+.text.main      0x0000000000001778      0x11a
+ .text.main     0x0000000000001778      0x11a build/default/debug/mainV4.o
                 0x0000000000001778                main
 
 .text.Display_init
-                0x0000000000001894       0xdc
+                0x0000000000001892       0xdc
  .text.Display_init
-                0x0000000000001894       0xdc build/default/debug/mainV4.o
-                0x0000000000001894                Display_init
+                0x0000000000001892       0xdc build/default/debug/mainV4.o
+                0x0000000000001892                Display_init
 
 .text.SendCommandSeq
-                0x0000000000001970       0x82
+                0x000000000000196e       0x82
  .text.SendCommandSeq
-                0x0000000000001970       0x82 build/default/debug/mainV4.o
-                0x0000000000001970                SendCommandSeq
+                0x000000000000196e       0x82 build/default/debug/mainV4.o
+                0x000000000000196e                SendCommandSeq
 
-.text.Waitms    0x00000000000019f2       0x34
- .text.Waitms   0x00000000000019f2       0x34 build/default/debug/mainV4.o
-                0x00000000000019f2                Waitms
+.text.Waitms    0x00000000000019f0       0x34
+ .text.Waitms   0x00000000000019f0       0x34 build/default/debug/mainV4.o
+                0x00000000000019f0                Waitms
 
 .text.__vector_11
-                0x0000000000001a26       0x24
+                0x0000000000001a24       0x24
  .text.__vector_11
-                0x0000000000001a26       0x24 build/default/debug/mainV4.o
-                0x0000000000001a26                __vector_11
+                0x0000000000001a24       0x24 build/default/debug/mainV4.o
+                0x0000000000001a24                __vector_11
 
 .text.init_Timer1
-                0x0000000000001a4a       0x22
+                0x0000000000001a48       0x22
  .text.init_Timer1
-                0x0000000000001a4a       0x22 build/default/debug/mainV4.o
-                0x0000000000001a4a                init_Timer1
+                0x0000000000001a48       0x22 build/default/debug/mainV4.o
+                0x0000000000001a48                init_Timer1
 
-.text.exit      0x0000000000001a6c       0x16
- .text.exit     0x0000000000001a6c       0x16 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const/libc.a(exit.o)
-                0x0000000000001a6c                exit
+.text.exit      0x0000000000001a6a       0x16
+ .text.exit     0x0000000000001a6a       0x16 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const/libc.a(exit.o)
+                0x0000000000001a6a                exit
 
 .text.SPISend16Bit
-                0x0000000000001a82       0x14
+                0x0000000000001a80       0x14
  .text.SPISend16Bit
-                0x0000000000001a82       0x14 build/default/debug/mainV4.o
-                0x0000000000001a82                SPISend16Bit
+                0x0000000000001a80       0x14 build/default/debug/mainV4.o
+                0x0000000000001a80                SPISend16Bit
 
-.text.libgcc    0x0000000000001a96       0x10
- .text.libgcc   0x0000000000001a96       0x10 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const/libgcc.a(_xload_2.o)
-                0x0000000000001a96                __xload_2
+.text.libgcc    0x0000000000001a94       0x10
+ .text.libgcc   0x0000000000001a94       0x10 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/avr5/memx-const/libgcc.a(_xload_2.o)
+                0x0000000000001a94                __xload_2
 
 .text.SPISend8Bit
-                0x0000000000001aa6        0xe
+                0x0000000000001aa4        0xe
  .text.SPISend8Bit
-                0x0000000000001aa6        0xe build/default/debug/mainV4.o
-                0x0000000000001aa6                SPISend8Bit
+                0x0000000000001aa4        0xe build/default/debug/mainV4.o
+                0x0000000000001aa4                SPISend8Bit
 
-.text.SPI_init  0x0000000000001ab4        0xc
+.text.SPI_init  0x0000000000001ab2        0xc
  .text.SPI_init
-                0x0000000000001ab4        0xc build/default/debug/mainV4.o
-                0x0000000000001ab4                SPI_init
+                0x0000000000001ab2        0xc build/default/debug/mainV4.o
+                0x0000000000001ab2                SPI_init
 
-.text           0x0000000000001ac0        0x4
- .text          0x0000000000001ac0        0x4 /Applications/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
-                0x0000000000001ac0                __vector_20
-                0x0000000000001ac0                __vector_1
-                0x0000000000001ac0                __vector_24
-                0x0000000000001ac0                __vector_12
-                0x0000000000001ac0                __bad_interrupt
-                0x0000000000001ac0                __vector_6
-                0x0000000000001ac0                __vector_3
-                0x0000000000001ac0                __vector_23
-                0x0000000000001ac0                __vector_25
-                0x0000000000001ac0                __vector_13
-                0x0000000000001ac0                __vector_17
-                0x0000000000001ac0                __vector_19
-                0x0000000000001ac0                __vector_7
-                0x0000000000001ac0                __vector_5
-                0x0000000000001ac0                __vector_4
-                0x0000000000001ac0                __vector_9
-                0x0000000000001ac0                __vector_2
-                0x0000000000001ac0                __vector_21
-                0x0000000000001ac0                __vector_15
-                0x0000000000001ac0                __vector_8
-                0x0000000000001ac0                __vector_14
-                0x0000000000001ac0                __vector_10
-                0x0000000000001ac0                __vector_16
-                0x0000000000001ac0                __vector_18
-                0x0000000000001ac0                __vector_22
+.text           0x0000000000001abe        0x4
+ .text          0x0000000000001abe        0x4 /Applications/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
+                0x0000000000001abe                __vector_20
+                0x0000000000001abe                __vector_1
+                0x0000000000001abe                __vector_24
+                0x0000000000001abe                __vector_12
+                0x0000000000001abe                __bad_interrupt
+                0x0000000000001abe                __vector_6
+                0x0000000000001abe                __vector_3
+                0x0000000000001abe                __vector_23
+                0x0000000000001abe                __vector_25
+                0x0000000000001abe                __vector_13
+                0x0000000000001abe                __vector_17
+                0x0000000000001abe                __vector_19
+                0x0000000000001abe                __vector_7
+                0x0000000000001abe                __vector_5
+                0x0000000000001abe                __vector_4
+                0x0000000000001abe                __vector_9
+                0x0000000000001abe                __vector_2
+                0x0000000000001abe                __vector_21
+                0x0000000000001abe                __vector_15
+                0x0000000000001abe                __vector_8
+                0x0000000000001abe                __vector_14
+                0x0000000000001abe                __vector_10
+                0x0000000000001abe                __vector_16
+                0x0000000000001abe                __vector_18
+                0x0000000000001abe                __vector_22
 
-.text._Exit     0x0000000000001ac4        0x4
- .text._Exit    0x0000000000001ac4        0x4 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const/libc.a(_Exit.o)
-                0x0000000000001ac4                _Exit
+.text._Exit     0x0000000000001ac2        0x4
+ .text._Exit    0x0000000000001ac2        0x4 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const/libc.a(_Exit.o)
+                0x0000000000001ac2                _Exit
 
 .text.__dummy_fini
-                0x0000000000001ac8        0x2
+                0x0000000000001ac6        0x2
  .text.__dummy_fini
-                0x0000000000001ac8        0x2 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const/libc.a(exit.o)
-                0x0000000000001ac8                _fini
+                0x0000000000001ac6        0x2 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const/libc.a(exit.o)
+                0x0000000000001ac6                _fini
 
 .text.__dummy_funcs_on_exit
-                0x0000000000001aca        0x2
+                0x0000000000001ac8        0x2
  .text.__dummy_funcs_on_exit
-                0x0000000000001aca        0x2 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const/libc.a(exit.o)
-                0x0000000000001aca                __funcs_on_exit
+                0x0000000000001ac8        0x2 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const/libc.a(exit.o)
+                0x0000000000001ac8                __funcs_on_exit
 
 .text.__dummy_simulator_exit
-                0x0000000000001acc        0x2
+                0x0000000000001aca        0x2
  .text.__dummy_simulator_exit
-                0x0000000000001acc        0x2 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const/libc.a(exit.o)
-                0x0000000000001acc                __simulator_exit
+                0x0000000000001aca        0x2 /Applications/microchip/xc8/v2.46/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const/libc.a(exit.o)
+                0x0000000000001aca                __simulator_exit
 
-.rodata         0x0000000000800100       0x52 load address 0x0000000000001ace
+.rodata         0x0000000000800100       0x52 load address 0x0000000000001acc
  .rodata        0x0000000000800100       0x52 build/default/debug/mainV4.o
 
-.data.WindowData.1715
-                0x0000000000800152        0xc load address 0x0000000000001b20
- .data.WindowData.1715
+.data.WindowData.1714
+                0x0000000000800152        0xc load address 0x0000000000001b1e
+ .data.WindowData.1714
                 0x0000000000800152        0xc build/default/debug/mainV4.o

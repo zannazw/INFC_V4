@@ -5,6 +5,7 @@
 #include <xc.h>
 #include <avr/interrupt.h>
 #include <avr/io.h>
+#include "picture.h"
 
 #define SPI_DDR DDRB
 #define SS PINB2
@@ -91,13 +92,12 @@ void SendCommandSeq(const uint16_t * data, uint32_t Anzahl){
 	}
 }
 
-void Display_init(void) { ////
+void Display_init(void) { 
 	const uint16_t InitData[] ={
 		0xFDFD, 0xFDFD,
 		//pause
 		0xEF00, 0xEE04, 0x1B04, 0xFEFE, 0xFEFE,
 		0xEF90, 0x4A04, 0x7F3F, 0xEE04, 0x4306, //0x7F3F for 16-bit color mode
-		//pause
 		//pause
 		0xEF90, 0x0983, 0x0800, 0x0BAF, 0x0A00,
 		0x0500, 0x0600, 0x0700, 0xEF00, 0xEE0C,
